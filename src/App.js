@@ -1,22 +1,16 @@
-import logo from './logo.svg';
+import whc from './imgs/whc.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <p className='test-font'>*** UNDER CONSTRUCTION ***</p>
+        <p>The Honey Bees are at work...website coming soon...</p>
+        <img src={whc} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        "For so work the honey bees, creatures that by a rule in nature teach the act of order to a peopled kingdom." - William Shakespeare
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
